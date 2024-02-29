@@ -17,6 +17,7 @@ while remaining_guesses > 0:
         print("Congratulations! You guessed the right number.")
         break
     elif guess < number:
+ limited-guesses
         print("Sorry! Your guess is too low.")
     else:
         print("Sorry! Your guess is too high.")
@@ -26,3 +27,8 @@ while remaining_guesses > 0:
         print(f"You have {remaining_guesses} guesses left.")
     else:
         print(f"Sorry! You've used all your guesses. The number was {number}.")
+
+        print("Sorry! Your guess is too low. Try again.")
+    else:
+        print("Sorry! Your guess is too high. Try again.")
+ main
